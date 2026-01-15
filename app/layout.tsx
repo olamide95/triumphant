@@ -11,15 +11,15 @@ export const metadata: Metadata = {
   title: "Triumphant Women Fellowship - Empowering Christian Women",
   description:
     "An interdenominational gathering of winning women. Join us every Wednesday at The Triumphant Place in Lokogoma, Abuja. Experience spiritual growth, sisterhood, and empowerment.",
-  generator: "v0.app",
+  generator: "triumphant",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/icon.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/icon.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/icon.png",
   },
 }
 
